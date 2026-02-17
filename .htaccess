@@ -1,0 +1,21 @@
+# Evitar acceso a cualquier .env y demás archivos sensibles
+<FilesMatch "^(\.env|\.ht|#.*#|~$|\.ini$|\.log$)$">
+    Require all denied
+</FilesMatch>
+
+# Deshabilitar listado de directorios
+Options -Indexes
+<IfModule mod_negotiation.c>
+        Options -MultiViews
+</IfModule>
+# Redirigir todo al directorio public/
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Si piden la raíz, van a public/
+    RewriteRule ^$ public/ [L]
+
+    # Para el resto de rutas
+    RewriteRule (.*) public/$1 [L]
+</IfModule>
+
