@@ -1,4 +1,4 @@
-# 🛠️ Sistema DNC COMEX - Documentación Completa
+# 🛠️ Sistema DNC - Documentación Completa
 
 Este proyecto está desarrollado con **Laravel 10**, **Filament 3** y **Spatie Laravel Settings** para facilitar la gestión de necesidades de capacitación.
 
@@ -412,14 +412,6 @@ php artisan tinker
 
 ---
 
-## 👥 Contacto
-
-Desarrollado por **Espacio 360**
-
-📧 soporte@espacio360.com.mx  
-🌐 [espacio360.com.mx](https://espacio360.com.mx)
-
----
 
 ## 📄 Licencia
 
