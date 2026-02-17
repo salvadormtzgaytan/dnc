@@ -1,0 +1,10 @@
+import './bootstrap';
+import Alpine from 'alpinejs';
+import 'animate.css/animate.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Chart from 'chart.js/auto';
+window.Chart = Chart;
+window.Alpine = Alpine;
+Alpine.start();
+AOS.init();

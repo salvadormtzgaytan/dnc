@@ -1,0 +1,106 @@
+@import '../../storage/fonts/comex/stylesheet.css';
+@import '../../storage/fonts/fontawesome6/all.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* 
+    clamp(min, ideal, max):
+    - min: límite inferior (16px)
+    - ideal: fórmula que combine rem y vw para escalar
+    - max: límite superior (18px)
+  */
+  html {
+    font-size: clamp(16px, 1rem + 0.5vw, 18px);
+  }
+}
+
+body {
+  font-family: theme('fontFamily.sans');
+  @apply bg-gray-100;
+}
+
+body.bg-login,
+body.bg-forgot,
+body.bg-dashboard,
+body.bg-exam,
+body.bg-finish,
+body.bg-perfil {
+  /* cover, center y parallax */
+  @apply bg-cover bg-center bg-fixed;
+}
+
+/* Luego defines cada imagen como ya lo tenías */
+body.bg-login {
+  background-image: url('../img/bg-login.png');
+}
+
+body.bg-forgot {
+  background-image: url('../img/bg-forgot-passw.jpg');
+}
+
+body.bg-dashboard {
+  background-image: url('../img/bg-dashboard.jpg');
+}
+
+body.bg-exam {
+  background-image: url('../img/bg-exam.png');
+}
+
+body.bg-finish {
+  background-image: url('../img/bg-finish.png');
+}
+
+body.bg-perfil {
+  background-image: url('../img/bg-perfil.jpg');
+  /* estos overrides funcionan igual */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+/* Componentes de DaisyUI */
+.btn,
+.modal-box,
+.dropdown-content {
+  font-family: inherit;
+}
+
+/* Estilos para fuentes especiales */
+.font-condensed {
+  font-family: theme('fontFamily.condensed');
+}
+
+.font-logos {
+  font-family: theme('fontFamily.logos');
+}
+
+h1 {
+  font-size: clamp(1.75rem, 1.5227rem + 0.9697vw, 2.25rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 1.3864rem + 0.4848vw, 1.75rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 1.1932rem + 0.2424vw, 1.375rem);
+}
+
+/* Tus estilos personalizados */
+@layer components {
+  /* Cyan Comex */
+  .card-comex-cyan {
+    @apply bg-[#00AEEF] text-white;
+  }
+  /* Negro Comex */
+  .card-comex-black {
+    @apply bg-black text-white;
+  }
+  /* Blanco Comex */
+  .card-comex-white {
+    @apply bg-white text-black border border-gray-200;
+  }
+}

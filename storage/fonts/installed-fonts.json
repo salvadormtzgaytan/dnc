@@ -1,0 +1,28 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_ca98b04ad808a3a0082097471d01b222"
+    },
+    "font awesome 6 duotone": {
+        "900": "font_awesome_6_duotone_900_135a54717a1e3ace6db7f82707838290"
+    },
+    "font awesome 6 pro": {
+        "300": "C:\\work\\gitea\\DNC\\storage\\fonts\/font_awesome_6_pro_300_4a555b139b7a3c57ff8798951fde618b",
+        "normal": "C:\\work\\gitea\\DNC\\storage\\fonts\/font_awesome_6_pro_normal_5d6798b40225f4e05fb952dd3769147e",
+        "900": "C:\\work\\gitea\\DNC\\storage\\fonts\/font_awesome_6_pro_900_7ba53fde6a88c272519ac2bc981ebd76",
+        "100": "font_awesome_6_pro_100_23dbaacb6b74117dc6c260e0d344096a"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_ca98b04ad808a3a0082097471d01b222"
+    },
+    "font awesome 5 pro": {
+        "900": "C:\\work\\gitea\\DNC\\storage\\fonts\/font_awesome_5_pro_900_7ba53fde6a88c272519ac2bc981ebd76",
+        "normal": "C:\\work\\gitea\\DNC\\storage\\fonts\/font_awesome_5_pro_normal_5d6798b40225f4e05fb952dd3769147e",
+        "300": "font_awesome_5_pro_300_4a555b139b7a3c57ff8798951fde618b"
+    },
+    "font awesome 5 duotone": {
+        "900": "font_awesome_5_duotone_900_135a54717a1e3ace6db7f82707838290"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_ad0623c1b0f166cfc42629a035d1a859"
+    }
+}

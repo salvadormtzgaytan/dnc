@@ -1,0 +1,1 @@
+<img src="{{ asset('img/logo-dashboard.svg') }}" alt="Comex" class="w-[9rem] h-auto mx-auto p-2">

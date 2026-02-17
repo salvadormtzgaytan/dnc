@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Comex';
+    src: url('Comex-Black.woff2') format('woff2'),
+        url('Comex-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('Comex-Bold.woff2') format('woff2'),
+        url('Comex-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('Comex-Light.woff2') format('woff2'),
+        url('Comex-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('ComexLight-Italic.woff2') format('woff2'),
+        url('ComexLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('ComexMedium-Italic.woff2') format('woff2'),
+        url('ComexMedium-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('Comex-Medium.woff2') format('woff2'),
+        url('Comex-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex';
+    src: url('Comex-Bold-Italic.woff2') format('woff2'),
+        url('Comex-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Logos';
+    src: url('Comex-Logos.woff2') format('woff2'),
+        url('Comex-Logos.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexBold-Condensed.woff2') format('woff2'),
+        url('ComexBold-Condensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexLight-Condensed.woff2') format('woff2'),
+        url('ComexLight-Condensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexLight-CondensedItalic.woff2') format('woff2'),
+        url('ComexLight-CondensedItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexMedium-Condensed.woff2') format('woff2'),
+        url('ComexMedium-Condensed.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexMedium-CondensedItalic.woff2') format('woff2'),
+        url('ComexMedium-CondensedItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Condensed';
+    src: url('ComexBold-CondensedItalic.woff2') format('woff2'),
+        url('ComexBold-CondensedItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comex Ultra Condensed';
+    src: url('Comex-UltraCondensed.woff2') format('woff2'),
+        url('Comex-UltraCondensed.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

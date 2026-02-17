@@ -1,0 +1,1 @@
+<img src="{{ asset('img/logo_login.svg') }}" alt="Login Logo" class="w-48 h-auto mx-auto">

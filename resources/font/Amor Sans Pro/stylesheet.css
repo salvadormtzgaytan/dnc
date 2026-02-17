@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Amor Sans Pro';
+    src: url('AmorSansPro.woff2') format('woff2'),
+        url('AmorSansPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amor Sans Pro';
+    src: url('AmorSansPro-Italic.woff2') format('woff2'),
+        url('AmorSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amor Sans Pro';
+    src: url('AmorSansPro-Bold.woff2') format('woff2'),
+        url('AmorSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amor Sans Pro';
+    src: url('AmorSansPro-BoldItalic.woff2') format('woff2'),
+        url('AmorSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
